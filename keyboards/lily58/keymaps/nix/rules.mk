@@ -1,4 +1,4 @@
-WPM_ENABLE = yes
+# WPM_ENABLE = yes
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = yes       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
@@ -15,7 +15,7 @@ OLED_ENABLE = yes     # OLED display
 SRC +=  ./lib/rgb_state_reader.c \
         ./lib/layer_state_reader.c \
         ./lib/logo_reader.c \
-        ./lib/keylogger.c \
+        # ./lib/keylogger.c \
         # ./lib/mode_icon_reader.c \
         # ./lib/host_led_state_reader.c \
         # ./lib/timelogger.c \
