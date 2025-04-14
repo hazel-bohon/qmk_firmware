@@ -70,7 +70,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * No idea why it is the case that the default layout offsets the arrow keys one to the right of the Vim
  * standard. Real sicko shit tbh
  *
- * Tried setting up the media keys but the only one that seems to be working is the mute key
  */
 
 [_RAISE] = LAYOUT(
